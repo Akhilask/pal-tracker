@@ -16,11 +16,11 @@ public class WelcomeController {
 
 
 
-    public  WelcomeController(@Value("${welcome.message}") String msg)
+    /*public  WelcomeController(@Value("${welcome.message}") String msg)
     {
         message=msg;
 
-    }
+    }*/
 
 
 

@@ -109,7 +109,8 @@ public class TimeEntryControllerTest {
     }
 
     @Test
-    public void testUpdate_NotFound() throws Exception {
+    public void testUpdate_NotFound() throws Exception
+    {
         long nonExistentTimeEntryId = 1L;
         doReturn(null)
             .when(timeEntryRepository)
